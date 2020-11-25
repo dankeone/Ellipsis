@@ -234,10 +234,6 @@
 .contactus fieldset{
   margin:0 25px;
 	border: 2px solid #3c3c3c; 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column; 
 }
 .contactus button{
 	margin-bottom: 70px;
