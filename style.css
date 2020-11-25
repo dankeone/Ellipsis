@@ -248,6 +248,10 @@
 	background-color: #3c3c3c;
 	text-transform: uppercase;
 }
+.button{
+  display: flex;
+  justify-content: center;
+}
 /*footer*/
 .footer{
 	display: flex;
