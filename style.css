@@ -49,15 +49,13 @@
  display: flex;
  justify-content: center;
  align-items: center;
- flex-direction: column;
 }
 .aboutus_tittle{	
   font-size: 20px;
   font-family: "Lato";
+  line-height: 1.5;
   color: #3c3c3c;
-  font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
@@ -65,13 +63,13 @@
 }
 .aboutus_text{
   min-width: 800px;
-  padding: 70px 0;
+  padding: 70px 25px;
   font-size: 16px;
   font-family: "Lato";
+  font-weight: 400;
   color: #3c3c3c;
   line-height: 1.5;
   text-align: center;
- 
 }
 .aboutus fieldset{
   margin:0 25px;
@@ -93,15 +91,18 @@
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  line-height: 1.5;
   padding-right: 10%;
   padding-left: 10%;
 }
 .services_text{
   min-width: 800px;
-  padding: 70px 0;
+  padding: 70px 25px;
   font-size: 16px;
   font-family: "Lato";
+  font-weight: 400;
   color: white;
+  line-height: 1.5;
   text-align: center;
 }
 .services fieldset{
@@ -114,7 +115,6 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
 }
 .whatwedo_text{
 	min-width: 800px;
@@ -126,18 +126,19 @@
 .whatwedo_text p{
   font-size: 16px;
   font-family: "Lato";
+  font-weight: 400;
   color: #3c3c3c;
-  line-height: 1.849;
+  line-height: 1.5;
   text-align: center;
 }
 .whatwedo_text h2{
   padding: 40px 0;
-  font-size: 33px;
+  font-size: 20px;
   font-family: "Lato";
   color: #3c3c3c;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
 }
 .whatwedo_text .design, .whatwedo_text .development, .whatwedo_text .product {
@@ -153,7 +154,7 @@
   color: #3c3c3c;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
@@ -163,14 +164,13 @@
 	border: 2px solid #3c3c3c;
 }	
 .whatwedo .design{
-	padding-top: 150px;
+	padding-top: 100px;
 }
 .whatwedo .product{
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 }
 /*gallary*/
 .gallary_wrapper{
-	padding-bottom: 100px;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -187,7 +187,7 @@
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
 }
 .gallary_photo img{
@@ -202,7 +202,6 @@
  display: flex;
  justify-content: center;
  align-items: center;
- flex-direction: column;
 }
 .contactus_tittle{	
   font-size: 20px;
@@ -210,7 +209,7 @@
   color: #3c3c3c;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
   padding-right: 10%;
   padding-left: 10%;
@@ -222,6 +221,7 @@
   padding-bottom: 30px;
   font-size: 16px;
   font-family: "Lato";
+  font-weight: 400;
   color: #3c3c3c;
   line-height: 1.5;
   text-align: center;
@@ -240,6 +240,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    line-height: 1.5;
 	width: 200px;
 	background-color: #3c3c3c;
 	text-transform: uppercase;
@@ -258,8 +259,9 @@
 .footer_text{
   font-size: 14px;
   font-family: "Lato";
+  font-weight: 300;
   color: #3c3c3c
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: left;
 }
 .footer img{
