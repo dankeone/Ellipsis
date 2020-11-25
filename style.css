@@ -6,13 +6,14 @@
 /*header*/
 .header{
 	background: url("photo/header.png") no-repeat; 
-	height: 1080px;
+	height: 1000px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .header_content{
-	max-width: 1200px;
+  margin:0 25px;
+	max-width: 800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -40,12 +41,11 @@
 }
 /*main*/
 .main{ 
-	margin:0 auto;
-	box-sizing: border-box;
+	
 }
 /*aboutus*/
 .aboutus{
- padding: 100px 0;
+ padding: 100px 50px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -64,7 +64,7 @@
 
 }
 .aboutus_text{
-  width: 800px;
+  min-width: 800px;
   padding: 70px 0;
   font-size: 16px;
   font-family: "Lato";
@@ -98,7 +98,7 @@
   padding-left: 10%;
 }
 .services_text{
-  width: 800px;
+  min-width: 800px;
   padding: 70px 0;
   font-size: 16px;
   font-family: "Lato";
@@ -118,7 +118,7 @@
    flex-direction: column;
 }
 .whatwedo_text{
-	width: 800px;
+	min-width: 800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -217,7 +217,7 @@
 
 }
 .contactus_text{
-  width: 800px;
+  min-width: 800px;
   padding-top: 70px;
   padding-bottom: 30px;
   font-size: 16px;
