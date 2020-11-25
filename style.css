@@ -45,7 +45,7 @@
 }
 /*aboutus*/
 .aboutus{
- padding: 100px 50px;
+ padding: 100px 0;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -74,10 +74,12 @@
  
 }
 .aboutus fieldset{
+  margin:0 25px;
 	border: 2px solid #3c3c3c;  
 }
 /*services*/
 .services{
+
   height: 300px;
   padding: 100px 0;
  display: flex;
@@ -107,6 +109,7 @@
   text-align: center;
 }
 .services fieldset{
+  margin:0 25px;
 	border: 2px solid white;
 }
 /*what we do*/
@@ -160,6 +163,7 @@
   padding-left: 10%;
 }
 .whatwedo fieldset{
+  margin:0 25px;
 	border: 2px solid #3c3c3c;
 }	
 .whatwedo .design{
@@ -228,6 +232,7 @@
  
 }
 .contactus fieldset{
+  margin:0 25px;
 	border: 2px solid #3c3c3c; 
 	display: flex;
 	justify-content: center;
