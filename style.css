@@ -5,15 +5,16 @@
 }
 /*header*/
 .header{
-	background: url("photo/header.png") no-repeat; 
-	height: 1000px;
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .header_content{
-  margin:0 25px;
-	max-width: 800px;
+  
+  margin:100px 25px;
+	max-width: 1100px;
+  width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -26,8 +27,9 @@
 	font-family: lato;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 54px;
-	text-align: center;
+	/*font-size: calc(30px + 22 * (100vh / 1280));;*/
+	font-size: 40px;
+  text-align: center;
 	margin-top: 80px;
 	margin-bottom: 125px;
 }
@@ -35,9 +37,9 @@
 	font-family: lato;
 	font-weight: 400;
 	text-transform: uppercase;
-	font-size: 15px;
+/*	font-size: calc(10px + 10 * (100vh / 1280));*/
+  font-size: 15px;
 	text-align: center;
-	line-height: 29px;
 }
 /*main*/
 .main{ 
@@ -45,7 +47,6 @@
 }
 /*aboutus*/
 .aboutus{
- height: 400px;
  padding: 100px 0;
  display: flex;
  justify-content: center;
@@ -63,8 +64,7 @@
 
 }
 .aboutus_text{
-  min-width: 800px;
-  padding: 70px 25px;
+  padding: 50px;
   font-size: 16px;
   font-family: "Lato";
   font-weight: 400;
@@ -73,17 +73,18 @@
   text-align: center;
 }
 .aboutus fieldset{
+  max-width: 1100px;
+  width: 100%;
   margin:0 25px;
 	border: 2px solid #3c3c3c;  
 }
 /*services*/
 .services{
-  height: 300px;
-  padding: 100px 0;
+ padding: 100px 0;
  display: flex;
  justify-content: center;
  align-items: center;
- background: url("photo/services.png") no-repeat;
+ background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }	
 .services_tittle{
   font-size: 20px;
@@ -97,8 +98,7 @@
   padding-left: 10%;
 }
 .services_text{
-  min-width: 800px;
-  padding: 70px 25px;
+  padding: 50px;
   font-size: 16px;
   font-family: "Lato";
   font-weight: 400;
@@ -107,19 +107,20 @@
   text-align: center;
 }
 .services fieldset{
+  max-width: 1100px;
+  width: 100%;
   margin:0 25px;
 	border: 2px solid white;
 }
 /*what we do*/
 .whatwedo{
-  height: 1200px;
    padding: 100px 0;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 .whatwedo_text{
-	min-width: 800px;
+  padding: 50px 50px 0 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -134,7 +135,7 @@
   text-align: center;
 }
 .whatwedo_text h2{
-  padding: 40px 0;
+  padding: 50px 0;
   font-size: 20px;
   font-family: "Lato";
   color: #3c3c3c;
@@ -148,7 +149,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 40px 0;
+  padding-bottom: 50px;
 }
 .whatwedo_tittle{
   font-size: 20px;
@@ -162,15 +163,11 @@
   padding-left: 10%;
 }
 .whatwedo fieldset{
+  max-width: 1100px;
+  width: 100%;
   margin:0 25px;
 	border: 2px solid #3c3c3c;
 }	
-.whatwedo .design{
-	padding-top: 100px;
-}
-.whatwedo .product{
-	padding-bottom: 100px;
-}
 /*gallary*/
 .gallary_wrapper{
 	display: grid;
@@ -200,7 +197,6 @@
 /*contactus*/
 
 .contactus{
-  height: 350px;
  padding: 100px 0;
  display: flex;
  justify-content: center;
@@ -219,9 +215,7 @@
 
 }
 .contactus_text{
-  min-width: 800px;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding: 50px;
   font-size: 16px;
   font-family: "Lato";
   font-weight: 400;
@@ -231,19 +225,21 @@
  
 }
 .contactus fieldset{
+  max-width: 1100px;
+  width: 100%;
   margin:0 25px;
 	border: 2px solid #3c3c3c; 
 }
 .contactus button{
-	margin-bottom: 70px;
-	 border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    line-height: 1.5;
+	margin-bottom: 50px;
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
 	width: 200px;
 	background-color: #3c3c3c;
 	text-transform: uppercase;
